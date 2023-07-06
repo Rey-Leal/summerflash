@@ -1,0 +1,182 @@
+﻿*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	width: 960px;
+	margin: 0px auto;
+	background-image: url(../images/fundos/fundo.jpg);
+	background-attachment: fixed;	
+}
+body, td, th
+{
+	font-family: Segoe Print;
+	text-align: justify;
+	color: White;
+	font-size: 16px;
+}
+a
+{
+	text-decoration: none;
+	color: Orange;
+}
+a:hover, a:active
+{
+	cursor: pointer;
+}
+a:visited
+{
+	color: White;
+}
+h1
+{
+	font-size: 60px;
+	font-weight: bold;
+	color: Orange; 
+}
+h2
+{
+	font-size: 22px;
+	font-weight: normal;
+	color: Orange; 
+}
+h3
+{
+	font-size: 18px;
+	font-weight: normal;
+}
+h4
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+.geral
+{	
+}
+.topo
+{
+	margin: 10px;
+	padding: 10px;
+	height: 200px;
+	background-image: url(../images/fundos/preto70.png); 
+	/* Firefox */
+	-moz-background-clip: border;
+	-moz-background-inline-policy: continuous;
+	-moz-box-shadow: 0px 0px 6px #000;
+	-moz-border-radius: 10px; 
+	/* Opera */
+	-o-background-origin: padding;
+	-o-box-shadow: 0px 0px 6px #000;
+	-o-border-radius: 10px;
+	 /* iCab */
+	-icab-box-shadow: 0px 0px 6px #000;
+	-icab-border-radius: 10px;
+	 /* Konqueror */
+	-khtml-box-shadow: 0px 0px 6px #000;
+	-khtml-border-radius: 10px;
+	 /* Safari */
+	-webkit-border-radius: 10px;
+}
+.linkSuperior
+{
+	height: 40px;
+}
+.conteudo
+{
+	margin: 10px;
+	padding: 20px;
+	background-image: url(../images/fundos/preto70.png); 
+	/* Firefox */
+	-moz-background-clip: border;
+	-moz-background-inline-policy: continuous;
+	-moz-box-shadow: 0px 0px 6px #000;
+	-moz-border-radius: 10px; 
+	/* Opera */
+	-o-background-origin: padding;
+	-o-box-shadow: 0px 0px 6px #000;
+	-o-border-radius: 10px; 
+	/* iCab */
+	-icab-box-shadow: 0px 0px 6px #000;
+	-icab-border-radius: 10px;
+	 /* Konqueror */
+	-khtml-box-shadow: 0px 0px 6px #000;
+	-khtml-border-radius: 10px;
+	 /* Safari */
+	-webkit-border-radius: 10px;
+}
+.rodape
+{
+	margin: 10px;
+	padding: 10px;
+	font-size: 12px;
+	background-image: url(../images/fundos/preto70.png);
+	 /* Firefox */
+	-moz-background-clip: border;
+	-moz-background-inline-policy: continuous;
+	-moz-box-shadow: 0px 0px 6px #000;
+	-moz-border-radius: 10px; 
+	/* Opera */
+	-o-background-origin: padding;
+	-o-box-shadow: 0px 0px 6px #000;
+	-o-border-radius: 10px; 
+	/* iCab */
+	-icab-box-shadow: 0px 0px 6px #000;
+	-icab-border-radius: 10px; 
+	/* Konqueror */
+	-khtml-box-shadow: 0px 0px 6px #000;
+	-khtml-border-radius: 10px; 
+	/* Safari */
+	-webkit-border-radius: 10px;
+}
+.centralizado
+{
+	text-align: center;
+}
+.floatLeft
+{
+	float: left; 
+}
+.floatRight
+{
+	float: right;
+}
+.clear
+{
+	clear: both;
+}
+.button
+{
+	height: 40px;
+	line-height: 40px;
+	width: 136px;
+	margin: 0px 12px;
+	text-align: center;
+	color: Orange;
+	font-size: 18px;
+	background-color: Transparent;
+	background-image: url(../images/fundos/preto90.png);
+	 /* Firefox */
+	-moz-background-clip: border;
+	-moz-background-inline-policy: continuous;
+	-moz-box-shadow: 0px 0px 6px #000;
+	-moz-border-radius: 10px; 
+	/* Opera */
+	-o-background-origin: padding;
+	-o-box-shadow: 0px 0px 6px #000;
+	-o-border-radius: 10px; 
+	/* iCab */
+	-icab-box-shadow: 0px 0px 6px #000;
+	-icab-border-radius: 10px; 
+	/* Konqueror */
+	-khtml-box-shadow: 0px 0px 6px #000;
+	-khtml-border-radius: 10px; 
+	/* Safari */
+	-webkit-border-radius: 10px;
+}
+.button:hover
+{
+	background-image: url(../images/fundos/preto70.png);
+	color: Silver;
+}

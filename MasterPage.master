@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Summer Flash Back</title>
+    <meta name="description" content="Uma empresa jovem e voltada para o futuro, desenvolvendo soluções de forma diferenciada" />
+    <meta name="keywords" content="óculos, sol, verão, moda, praia, pscina, raiban" />
+    <link href="css/estilos.css" rel="Stylesheet" type="text/css" />
+    <link href="images/icone.ico" rel="shortcut icon" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="geral">
+            <div class="topo">
+                <div class="floatLeft">
+                    <h1>
+                        Summer Flash Back</h1>
+                    “Onde o antigo é moderno”
+                </div>
+            </div>
+            <div class="linkSuperior">
+                <div class="floatLeft">
+                    <a href="Default.aspx" title="Home">
+                        <div class="button">
+                            Home</div>
+                    </a>
+                </div>
+                <div class="floatLeft">
+                    <a href="Summer60.aspx" title="Summer 60">
+                        <div class="button">
+                            Summer 60</div>
+                    </a>
+                </div>
+                <div class="floatLeft">
+                    <a href="Summer70.aspx" title=" Summer 70">
+                        <div class="button">
+                            Summer 70</div>
+                    </a>
+                </div>
+                <div class="floatLeft">
+                    <a href="Summer80.aspx" title=" Summer 80">
+                        <div class="button">
+                            Summer 80</div>
+                    </a>
+                </div>
+                <div class="floatLeft">
+                    <a href="Summer90.aspx" title=" Summer 90">
+                        <div class="button">
+                            Summer 90</div>
+                    </a>
+                </div>
+                <div class="floatLeft">
+                    <a href="BlackFox.aspx" title="BlackFox">
+                        <div class="button">
+                            BlackFox</div>
+                    </a>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+            <div class="conteudo">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="rodape">
+                <div class="centralizado">
+                    Web Master - Rey Leal</div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
